@@ -1,0 +1,61 @@
+# Python 编译缓存与虚拟环境
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Node.js 依赖
+node_modules/
+npm-debug.log*
+
+# 数据库与日志
+*.db
+*.db-journal
+*.log
+logs/
+tmp/
+temp/
+scratch/
+backups/
+
+# 浏览器自动化 Profile 与缓存
+chrome_profile/
+chrome_cdp_profile/
+
+# 抓取目标站点数据与审计报告 (防止上传目标资产)
+site_download_*
+downloads/
+Finder_*.html
+
+# 本地开发专用基础设施与智能体配置 (严格物理隔离)
+AGENTS.md
+.agents/
+.cursor/
+.autopilot.json
+.vscode/
+.idea/
+
+# 临时单次测试与排障脚本
+test_ruishu*.py
+cdp_sentinel.py
+foreground_gateway.py
+run_ana_*.py
+Start-CDP-*
+trigger.py
+wake_sentinel.py
+debug_*.png
+*.bak*
+
+# 本地内部测试与维护脚本
+scripts/
+tests/
+package-lock.json
+
+# 网络抓包报文与网站资源脱机缓存
+*.har
+*.http
+*.pcap
+*.pcapng
+

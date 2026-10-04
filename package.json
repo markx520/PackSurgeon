@@ -1,0 +1,39 @@
+{
+  "name": "packsurgeon",
+  "version": "1.6.0",
+  "description": "基于 AST 语法树与多引擎自适应的前端打包资产全生命周期逆向与资产挖掘工作台",
+  "main": "engines/deobfuscator/deobfuscate.js",
+  "scripts": {
+    "deobfuscate": "node engines/deobfuscator/deobfuscate.js",
+    "surgeon": "node engines/analyzer/api_surgeon.js"
+  },
+  "keywords": [
+    "packsurgeon",
+    "webpack",
+    "packer",
+    "security",
+    "ast",
+    "webcrack",
+    "crawler",
+    "recon"
+  ],
+  "author": "markx520",
+  "contributors": [
+    {
+      "name": "markx520",
+      "url": "https://github.com/markx520"
+    },
+    {
+      "name": "TFour123",
+      "url": "https://github.com/TFour123"
+    },
+    {
+      "name": "eonun",
+      "url": "https://github.com/eonun"
+    }
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "webcrack": "^2.16.0"
+  }
+}
